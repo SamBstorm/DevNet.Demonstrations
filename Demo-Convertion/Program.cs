@@ -4,8 +4,16 @@ namespace Demo_Convertion
 {
     class Program
     {
+        static Random RNG = new Random();
         static void Main(string[] args)
         {
+            int i = 1;
+            while (i < 100)
+            {
+                Console.WriteLine( RNG.Next(1, 2) );
+                i++;
+            }
+
             //Console.WriteLine("Veuillez indiquer le nombre d'élèves présents aujourd'hui :");
             //string nbEleves_input = Console.ReadLine();
             //int nbEleves;
