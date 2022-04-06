@@ -43,7 +43,6 @@ namespace Demo_Collections
             {
                 Console.WriteLine($"{entry.Key} : {entry.Value}");
             }
-
         }
     }
 }
