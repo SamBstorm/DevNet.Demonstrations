@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Static01", "Demo-Stati
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Enumeration", "Demo-Enumeration\Demo-Enumeration.csproj", "{4EEAA3D8-FFE4-42D2-AFAB-72F7F4750B64}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Enumerations-02", "Demo-Enumerations-02\Demo-Enumerations-02.csproj", "{596B82AC-D7E2-496F-B132-262FC7E22B23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +113,10 @@ Global
 		{4EEAA3D8-FFE4-42D2-AFAB-72F7F4750B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EEAA3D8-FFE4-42D2-AFAB-72F7F4750B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EEAA3D8-FFE4-42D2-AFAB-72F7F4750B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{596B82AC-D7E2-496F-B132-262FC7E22B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{596B82AC-D7E2-496F-B132-262FC7E22B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{596B82AC-D7E2-496F-B132-262FC7E22B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{596B82AC-D7E2-496F-B132-262FC7E22B23}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
