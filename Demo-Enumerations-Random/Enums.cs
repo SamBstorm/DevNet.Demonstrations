@@ -6,5 +6,6 @@ using System.Threading.Tasks;
 
 namespace Demo_Enumerations_Random
 {
-    public enum Animals { Cat, Dog, Duck=8, Chicken, Pig, Frog=21, Horse }
+    public enum Animals { Cat, Dog, Duck, Chicken, Pig, Frog, Horse }
+    public enum Students { Antonio, Benjamin, Nathalie=8, Denis, Ryan, Bryan=21, Sylvain }
 }

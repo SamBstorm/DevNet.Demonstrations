@@ -7,11 +7,20 @@ namespace Demo_Enumerations_Random
         public static Random RNG = new Random();
         static void Main(string[] args)
         {
-            string[] animalsNames = Enum.GetNames(typeof(Animals));
-            int randomId = RNG.Next(0, animalsNames.Length);
+            Console.WriteLine("Avec une énumération ayant des identifiants simples :");
+            int randomId = RNG.Next(0, Enum.GetNames(typeof(Animals)).Length);
 
-            Animals myPet = Enum.Parse<Animals>(animalsNames[randomId]);
+            Animals myPet = (Animals)randomId;
             Console.WriteLine(myPet.ToString());
+            Console.WriteLine("----------------------------------------------");
+            Console.WriteLine("Avec une énumération ayant des identifiants désordonnés : ");
+
+            string[] studentNames = Enum.GetNames(typeof(Students));
+            randomId = RNG.Next(0, studentNames.Length);
+
+            Students student = Enum.Parse<Students>(studentNames[randomId]);
+            Console.WriteLine(student.ToString());
+
         }
     }
 }
