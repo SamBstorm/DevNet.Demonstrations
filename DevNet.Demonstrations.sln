@@ -23,21 +23,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Collections-Generiques
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-ToCharArray", "Demo-ToCharArray\Demo-ToCharArray.csproj", "{5720EED1-88AB-4EA1-A4CA-09D27B98F52E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Structures", "Demo-Structures\Demo-Structures.csproj", "{E544753F-412E-4DF4-ADC6-CB1E0F4B6C53}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Structures", "Demo-Structures\Demo-Structures.csproj", "{E544753F-412E-4DF4-ADC6-CB1E0F4B6C53}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Voitures-Structures+collections", "Demo-Voitures-Structures+collections\Demo-Voitures-Structures+collections.csproj", "{EEBE8164-ACDF-4FBB-A0AB-7A51E2E66359}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Voitures-Structures+collections", "Demo-Voitures-Structures+collections\Demo-Voitures-Structures+collections.csproj", "{EEBE8164-ACDF-4FBB-A0AB-7A51E2E66359}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Methode-01", "Demo-Methode-01\Demo-Methode-01.csproj", "{76269859-8538-4DA9-9CC8-47EC26FD6BE0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Methode-01", "Demo-Methode-01\Demo-Methode-01.csproj", "{76269859-8538-4DA9-9CC8-47EC26FD6BE0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Methode-02", "Demo-Methode-02\Demo-Methode-02.csproj", "{9A5EBADA-714C-40A0-9682-8C684CABB8EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Methode-02", "Demo-Methode-02\Demo-Methode-02.csproj", "{9A5EBADA-714C-40A0-9682-8C684CABB8EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Methode-03", "Demo-Methode-03\Demo-Methode-03.csproj", "{9F6825D5-2FB0-4D18-8832-44C998C134CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Methode-03", "Demo-Methode-03\Demo-Methode-03.csproj", "{9F6825D5-2FB0-4D18-8832-44C998C134CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Static01", "Demo-Static01\Demo-Static01.csproj", "{896A7FEB-4DCA-4D9B-AC4A-D2F534F13B49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Static01", "Demo-Static01\Demo-Static01.csproj", "{896A7FEB-4DCA-4D9B-AC4A-D2F534F13B49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Enumeration", "Demo-Enumeration\Demo-Enumeration.csproj", "{4EEAA3D8-FFE4-42D2-AFAB-72F7F4750B64}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Enumeration", "Demo-Enumeration\Demo-Enumeration.csproj", "{4EEAA3D8-FFE4-42D2-AFAB-72F7F4750B64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Enumerations-02", "Demo-Enumerations-02\Demo-Enumerations-02.csproj", "{596B82AC-D7E2-496F-B132-262FC7E22B23}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Demo-Enumerations-02", "Demo-Enumerations-02\Demo-Enumerations-02.csproj", "{596B82AC-D7E2-496F-B132-262FC7E22B23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo-Enumerations-Random", "Demo-Enumerations-Random\Demo-Enumerations-Random.csproj", "{E0D26F99-1A7F-49F6-B33A-18107E0AD640}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{596B82AC-D7E2-496F-B132-262FC7E22B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{596B82AC-D7E2-496F-B132-262FC7E22B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{596B82AC-D7E2-496F-B132-262FC7E22B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0D26F99-1A7F-49F6-B33A-18107E0AD640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0D26F99-1A7F-49F6-B33A-18107E0AD640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0D26F99-1A7F-49F6-B33A-18107E0AD640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0D26F99-1A7F-49F6-B33A-18107E0AD640}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
